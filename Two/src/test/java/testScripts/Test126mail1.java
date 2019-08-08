@@ -10,10 +10,12 @@ import pageobjects.LoginPage1;
 
 public class Test126mail1 {
 
+	
 	private WebDriver driver;
 	private String baseUrl = "https://www.126.com/";
 	@Test
 	public void testLogin() throws InterruptedException {
+		String test="修改文件标记";
 		//访问被测试的网址
 		driver.get(baseUrl);
 		Thread.sleep(5000);
