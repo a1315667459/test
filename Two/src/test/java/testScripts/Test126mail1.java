@@ -16,6 +16,7 @@ public class Test126mail1 {
 	@Test
 	public void testLogin() throws InterruptedException {
 		String test="修改文件标记";
+		String test1="测试第二轮"
 		//访问被测试的网址
 		driver.get(baseUrl);
 		Thread.sleep(5000);
