@@ -9,7 +9,7 @@ public class Test126mail2 {
 
 	@Test
 	public void testLogin() throws InterruptedException {
-		String test ="第三次修改"
+		//abcdefg
 		//生成一个LoginPage对象实例
 		LoginPage2 loginpage = new LoginPage2();
 		//调用登录页面对象的load方法，访问被测网页
